@@ -10,8 +10,7 @@
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+  font-variation-settings: "wdth" 100;
 }
 
 /* Sgared Style */
@@ -181,4 +180,29 @@ main section{
 
 .resume-download-cv{
   margin-top: 50px;
+}
+
+/* Footer Section */
+footer{
+  padding: 130px 230px;
+  display: flex;
+  gap: 117px;
+
+}
+
+.footer-column{
+  width: 50%;
+
+}
+
+footer input[type="text"],footer input[type="email"],footer textarea{
+   height: 64px;
+   border-radius: 5px;
+   background-color: white;
+   display: block;
+   width: 100%;
+   padding: 10px 20px;
+   margin-bottom: 24px;
+   border: none;
+   
 }
